@@ -19,4 +19,4 @@ __pycache__/
 # Ignore logs
 *.log
 #Ignore .gitignore
-.gitignore/                       
+.gitignore/                       Machine_Learning/Project_on_stock_markets/*.csv

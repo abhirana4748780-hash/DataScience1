@@ -1,22 +1,40 @@
-# Ignore virtual environments
+# -----------------------------
+# Virtual environments
+# -----------------------------
 venv/
 .env/
-# Ignore requirements file
-requirements.txt
-# Ignore cache & system files
+
+# -----------------------------
+# Python cache / compiled files
+# -----------------------------
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
+# -----------------------------
+# OS-specific files
+# -----------------------------
+.DS_Store
 
-# Ignore OS-specific files
-*.DS_Store
-# Ignore Jupyter Notebook checkpoints
+# -----------------------------
+# Jupyter Notebook checkpoints
+# -----------------------------
 .ipynb_checkpoints/
-# Ignore VS Code settings
+**/.ipynb_checkpoints/
+
+# -----------------------------
+# VS Code settings
+# -----------------------------
 .vscode/
-# Ignore logs
+
+# -----------------------------
+# Logs
+# -----------------------------
 *.log
-#Ignore .gitignore
-.gitignore/                       Machine_Learning/Project_on_stock_markets/*.csv
+
+# -----------------------------
+# Stock market project (big files)
+# -----------------------------
+Machine_Learning/Project_on_stock_markets/
+Machine_Learning/Project_on_stock_markets/*.csv
